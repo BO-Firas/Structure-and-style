@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.83 326.55">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;}.cls-2{fill:#ffc244;}.cls-3{fill:none;stroke:#333334;stroke-linecap:round;stroke-linejoin:round;stroke-width:8.8px;}
+        </style>
+    </defs>
+    <title>Box</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <polygon class="cls-1" points="154.91 4.4 305.43 81.94 156.43 157.95 4.4 81.94 154.91 4.4"/>
+            <polygon class="cls-1"
+                     points="4.4 81.94 4.4 233.97 156.43 322.15 156.43 157.95 156.43 322.15 305.43 237.01 305.43 81.94 156.43 157.95 4.4 81.94 154.91 4.4 4.4 81.94"/>
+            <polygon class="cls-2"
+                     points="88.02 40.89 63.69 56.09 210.57 131.76 210.57 191.4 237.62 176.2 237.62 117.96 88.02 40.89"/>
+            <path class="cls-3" d="M305.42,81.94,154.91,4.4Z"/>
+            <line class="cls-3" x1="246.74" y1="111.88" x2="97.14" y2="34.81"/>
+            <line class="cls-3" x1="219.7" y1="125.68" x2="72.81" y2="50.01"/>
+            <polygon class="cls-3"
+                     points="4.4 81.94 4.4 233.97 156.43 322.15 156.43 157.95 156.43 322.15 305.43 237.01 305.43 81.94 156.43 157.95 4.4 81.94 154.91 4.4 4.4 81.94"/>
+            <polyline class="cls-3" points="246.75 111.88 246.75 170.12 219.7 185.32 219.7 125.68"/>
+        </g>
+    </g>
+</svg>

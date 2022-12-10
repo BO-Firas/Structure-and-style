@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00846c;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+header nav{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav img{
+    height: 35px;
+    width: auto;
+}
+header nav button{
+    background: #00864c;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+}
+main{
+    margin-top: 40px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+section h1{
+    font-size: 32px;
+    line-height: 70px;
+    font-weight: 600;
+}
+section h3{
+    color: #FFC244;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight: 500;
+}
+section p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer{
+    background: #1d1d1d;
+    padding-bottom: 50px;
+}
+.ftr-logo{
+    margin-left: 150px;
+}
+.ftr-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.ftr-cont div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.ftr-cont div h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.ftr-cont div a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 35px;
+}
+.ftr-cont div a:hover{
+    color: #00846b;
+    transition: .4s;
+}.sixth-shape2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.sixth-shape2 svg {
+    position: relative;
+    display: block;
+    width: calc(285% + 1.3px);
+    height: 138px;
+}
+
+.sixth-shape2 .shape-fill {
+    fill: #1d1d1d;
+}
+

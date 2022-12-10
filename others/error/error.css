@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+*{
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00846c;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+
+nav img{
+    height: 35px;
+    width: auto;
+}
+
+nav{
+    margin-top: 20px;
+    padding-left: 50px;
+    position:fixed;
+}
+section{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    margin: 0 auto;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 50px;
+    height: 371px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+section div h1{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight:bolder;
+    padding-bottom: 18px;
+}
+section div p{
+    font-size: 16px;
+    line-height: 23px;
+}
+section div button{
+    background: #00846b;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    width: 90%;
+    cursor: pointer;
+}
+
+
+
+
+
+.sixth-shape2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.sixth-shape2 svg {
+    position: relative;
+    display: block;
+    width: calc(285% + 1.3px);
+    height: 138px;
+}
+
+.sixth-shape2 .shape-fill {
+    fill: #1d1d1d;
+}
+footer{
+    background: #1d1d1d;
+    padding-bottom: 80px;
+}
+.ftr-logo{
+    margin-left: 150px;
+}
+.ftr-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around
+}
+.ftr-cont div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 195px;
+}
+.ftr-cont div h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.ftr-cont div a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.ftr-cont div a:hover{
+    color: #00846b;
+    transition: .4s;
+}
+
+
